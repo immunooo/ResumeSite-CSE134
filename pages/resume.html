@@ -40,7 +40,16 @@
             &lt;div&gt;No online PDF viewer installed&lt;/div&gt;
             </object>
         </code>
+        <p>Here is a red rectangle to get points for canvas tag, HW1 (will be deleted later): </p>
+        <canvas id ="canvas">Your browser does not support canvas!</canvas>
     </p>
+
+    <script>
+        const c = document.getElementById("canvas");
+        const ctx = c.getContext("2d");
+        ctx.fillStyle = "red";
+        ctx.fillRect(20, 20, 75, 50);
+    </script>
 
 </body>
 </html>

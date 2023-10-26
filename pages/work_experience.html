@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <title>Joe Berlucchi's Resume Website</title>
     <link rel="icon" type="image/x-icon" href="../media/images/surfing-icon.ico">
-    <style></style>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
     <div>
@@ -32,7 +36,46 @@
             </ul>
         </nav>
     </div>
-    <h1>Work Experience</h1>
+    <main>
+        <h1>Work Experience</h1>
+        <table>
+            <caption>Work Experience Summary</caption>
+            <colgroup>
+                <col span="2">
+            </colgroup>
+            <tr>
+                <th>Company</th>
+                <th>Location</th>
+                <th>Dates Worked</th>
+                <th>Time worked</th>
+            </tr>
+            <tr>
+                <td>Northrop Grumman</td>
+                <td>San Diego, CA</td>
+                <td>June 2023 - Setember 2023</td>
+                <td>4 Months</td>
+            </tr>
+
+            <tr>
+                <td>Northrop Grumman</td>
+                <td>San Diego, CA</td>
+                <td>June 2022 - June 2023</td>
+                <td>1 year</td>
+            </tr>
+
+            <tr>
+                <td>Auburn Community Hospital</td>
+                <td>Auburn, NY</td>
+                <td>June 2017 - August 2017</td>
+                <td>3 Months</td>
+            </tr>
+
+        </table>
+        <h3>My favorite company:</h3>
+        <picture>
+            <img src="../media/images/Northrop_Grumman_logo.svg"/>
+        </picture>
+    </main>
 
 </body>
 </html>
