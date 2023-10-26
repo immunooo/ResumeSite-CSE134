@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Joe Berlucchi's Resume Website</title>
-    <link rel="icon" type="image/x-icon" href="media/images/surfing-icon.ico">
+    <link rel="icon" type="image/x-icon" href="../media/images/surfing-icon.ico">
     <style></style>
 </head>
 <body>
-    <section>
+    <div>
         <header>
             <h3>Joe Berlucchi's Portfolio Site</h3>
         </header>
@@ -31,8 +31,52 @@
                 </li>
             </ul>
         </nav>
-    </section>
-    <h1>Projects</h1>
+    </div>
+    <main>
+        <h1>Projects</h1>
+        <p>These are all my projects in order of importance/technical prowice.</p>
+        <ol>
+            <li>
+                <section>
+                    <h2>Qwiver</h2>
+
+                    <p> Dates: 2020-Current<br/><br/>
+                        <details>
+                            <summary>Description</summary>
+                            Qwiverapp is a social media app that me and a friend created. It takes similar elements from Snap Chat<br/>
+                            and Instagram inorder to create a refreshing new user experience.<br/><br/>
+                            I am responsible to create and maintain a backend using <em>NodeJS</em>, expressJS to store user information such as username, password, pictures, friends,<br/>
+                            and other items that social media needs.<br/>
+                        </details>
+                        <br/>Website: <a href="https://www.qwiverapp.com/">qwiverapp.com</a>
+                    </p>
+                    <details>
+                        <summary>Qwiver Embedded Website:</summary>
+                        <iframe src="https://www.qwiverapp.com/" width="1000" height="500"></iframe>
+                    </details>
+                </section>
+            </li>
+            <hr/>
+            <li>
+                <section>
+                    <h2>Rust Bot</h2>
+                    <p> Dates: 2020-Current<br/><br/>
+                        <details>
+                            <summary>Description</summary>
+                            RustBot was a bot for the popular social media Discord. This bot would reference the api for the popular game Rust inorder for users to show stats to<br/>
+                            friends and other users on Discord.<br/>
+                            This was created using <em>NodeJS</em> to reference the api of Discord and Rust.<br/>
+                            
+                        </details>
+
+                        <br/>Website: <a href="https://github.com/immunooo/RustBot">https://github.com/immunooo/RustBot</a>
+                    </p>
+                </section>
+            </li>
+            <hr/>
+        </ol>
+
+    </main>
 
 </body>
 </html>
